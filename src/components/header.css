@@ -1,0 +1,125 @@
+.header-container {
+  background-image: url("../assets/Vector.png");
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  display: flex;
+  align-items: center;
+  padding: 0 20px; /* Añade relleno si es necesario */
+  flex-direction: column;
+ background-color: #000000;
+  z-index: 1;
+}
+.header-texto {
+  width: 100%;
+  margin: 10px; /* Ajusta según el espacio deseado */
+}
+
+
+.parrafouno {
+  margin-left: auto;
+  padding-left: 390px;
+}
+.titulo {
+  text-align: left; /* Alinea el título hacia la derecha */
+  font-size: 12px;
+  
+  padding-bottom: 22px;
+    padding-top: 35px;
+    
+}
+
+.blanco {
+  color: white; /* Hace que el texto sea blanco */
+}
+
+.naranja {
+  color: orange; /* Hace que el texto sea naranja */
+  font-weight: bold;
+}
+.p-blanco {
+  color: white; /* Hace que el texto sea blanco */
+  font-size: 17px;
+}
+
+.p-naranja {
+  color: orange; /* Hace que el texto sea naranja */
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.parrafo {
+  color: white; /* Hace que el texto sea blanco */
+  font-size: 11px;
+}
+
+
+
+.tituloinferior {
+  font-size: 12px;
+  padding-left: 130px;
+  padding-bottom: 60px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center; /* Alinea las tarjetas en el centro horizontal */
+  gap: 40px; /* Distribuirá uniformemente el espacio entre las tarjetas */
+}
+
+.custom-card {
+  background-image: radial-gradient(circle at -14.09% 20.12%, #a49964 0, #353431 50%, #000000 100%);
+  /* Por ejemplo: */
+  border-radius: 18px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 80px;
+  width: 200px;
+  height: 230px;
+ 
+}
+
+.text-md {
+  color: orange;
+  font-weight: bold;
+  /* Estilos para el encabezado de la tarjeta */
+}
+
+.card-body {
+  color: white;
+  /* Estilos para el cuerpo de la tarjeta */
+}
+
+.icon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinea los elementos hacia la parte superior */
+  padding-bottom: 0px;
+}
+
+
+.card-titulo{
+  font-size: 14px;
+  
+
+}
+.card-parrafo{
+  padding-top: 0px;
+}
+
+.card-texto{
+  font-size: 14px;
+
+}
+
+.header-container .vertical-line {
+  width: 3px; /* Ancho de la línea vertical */
+  height: 100%; /* Altura igual al 100% del tamaño del viewport */
+  background-color: #FA9648; /* Color de la línea */
+  position: fixed; /* Posición fija para que la línea no afecte otros componentes */
+  left: 50px; /* Ubicación a 30px de la izquierda */
+  top: 0; /* Asegura que esté en la parte superior */
+ 
+}
+
+.barraNavegacion{
+  display: flex;
+}

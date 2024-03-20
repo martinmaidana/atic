@@ -1,0 +1,49 @@
+.facil {
+  background-image: url("../assets/Facil\ de\ usar\,\ adaptada\ a\ cada\ necesidad.jpg");
+  /* background-color: rgb(84, 65, 65); */
+  position: relative;
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+  height: 100vh; /* Establece la altura del contenedor al 100% del viewport */
+
+  background-size: cover; /* La imagen se ajustará para cubrir todo el contenedor */
+  background-position: center;
+}
+.blanco {
+  color: white;
+}
+
+.naranja {
+  color: orange;
+  font-weight: bold;
+}
+
+.titulo2 {
+  font-size:12px;
+  padding: 130px 0px 50px 150px;
+  
+}
+
+.texto1 {
+  color: white;
+  font-size: 20px;
+  padding: 0px 0px 20px 150px;
+  font-weight: bold;
+}
+.texto2 {
+  color: white;
+  font-size: 20px;
+  padding: 60px 160px 130px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  font-weight: bold;
+}
+.texto3 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  font-weight: bold;
+}

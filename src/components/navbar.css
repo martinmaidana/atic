@@ -1,0 +1,70 @@
+.navbar {
+  background-image: url("../assets/header-web.jpg");
+  background-color: grey ;
+
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  height: 100vh; /* Altura deseada */
+  display: flex;
+  align-items: center;
+  padding: 0 20px; /* Añade relleno si es necesario */
+  flex-direction: column;
+  z-index: 3;
+}
+
+.logo{
+  max-width: 30%;
+  height: auto;
+}
+
+.logo2{
+  max-width: 20%;
+  height: auto;
+  
+}
+.navi {
+  background-color: transparent;
+  color: white;
+}
+.Link {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  display: flex;
+  
+}
+
+.terruneo {
+  padding-top: 160px;
+  
+  
+ 
+}
+.logoTerruneo{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 35px;
+}
+.blanco {
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.naranja {
+  color: orange;
+  /* Ajusta el tamaño de la fuente según sea necesario */
+  font-size: 4em; /* Por ejemplo */
+}
+
+.sub {
+  color: white;
+  font-size: 30px; /* Por ejemplo */
+  font-weight: bold;
+}
+
+.buttonStyle{
+  color: white; /* Color del texto */
+  border: 1px solid white; /* Borde de color blanco */
+  background-color: transparent; /* Fondo transparente */
+}

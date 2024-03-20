@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./global.css";
+// 1. import `NextUIProvider` component
+import { NextUIProvider } from "@nextui-org/react";
+import Home from "./pages/Home.js";
+import Header from "./components/Header.js";
+import Facil from "./components/Facil.js"
+import Componente4 from "./components/Componente4.js";
+import Carousel from "./components/Carousel.js"
+import Footer from "./components/Footer.js"
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NextUIProvider>
+        <Home/>
+        <Header/>
+        <Facil/>
+        <Componente4/>
+        <Carousel/>
+        <Footer/>
+      </NextUIProvider>
     </div>
   );
 }

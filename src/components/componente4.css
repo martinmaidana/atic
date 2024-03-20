@@ -1,0 +1,58 @@
+.componente4{
+    background-image: url("../assets/Vector-1.png");
+    background-color: black;
+    
+    padding-bottom:70px;
+    padding-top:70px;
+    
+}
+.fondo-numeros{
+    padding-left:38px;
+    padding-top:144px;
+    
+    
+    
+}
+.fondo-numero-uno{
+    padding-left:38px;
+    
+    
+    
+    
+}
+
+.numero {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%; /* Hacer un círculo perfecto */
+    z-index: 1;
+    position: relative;
+    display: inline-flex; /* Usar flexbox para centrar */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    background-color: orange;
+  
+    width: 36px; /* Ancho igual a 36px */
+    height: 36px; /* Alto igual a 36px */
+}
+
+
+
+.titulo-componente{
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.numero-titulo{
+    display: flex;
+    align-items: center;
+}
+
+.parrafo-componente{
+    color:white;
+    font-size: 22px;
+    padding-left: 101px;
+}

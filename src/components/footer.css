@@ -92,7 +92,7 @@
   }
   
   .footer-line {
-    height: 0.5px; /* Altura de la línea */
+    height: 1px; /* Altura de la línea */
     background-color: white; /* Color de la línea */
     width: 100%; /* Ancho de la línea */
     

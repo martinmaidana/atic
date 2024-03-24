@@ -1,13 +1,14 @@
 .facil {
   background-image: url("../assets/Facil\ de\ usar\,\ adaptada\ a\ cada\ necesidad.jpg");
-  /* background-color: rgb(84, 65, 65); */
   position: relative;
   width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
-  height: 100vh; /* Establece la altura del contenedor al 100% del viewport */
-
+  height: 160vh; /* Establece la altura del contenedor al 100% del viewport */
   background-size: cover; /* La imagen se ajustará para cubrir todo el contenedor */
   background-position: center;
+  
+  
 }
+
 .blanco {
   color: white;
 }
@@ -18,8 +19,8 @@
 }
 
 .titulo2 {
-  font-size:12px;
-  padding: 130px 0px 50px 150px;
+  font-size:5rem;
+  padding: 110px 0px 50px 150px;
   
 }
 

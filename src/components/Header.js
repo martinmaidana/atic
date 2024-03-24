@@ -88,7 +88,7 @@ const Header = () => {
         </div>
 
         <div class="contenedor">
-          <Card className="custom-card max-w-[400px]">
+          <Card className="custom-card max-w-[3rem]">
             <CardHeader className="icon-card flex gap-3">
               <Image
                 alt="nextui logo"

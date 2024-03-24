@@ -17,15 +17,13 @@
 
 .parrafouno {
   margin-left: auto;
-  padding-left: 390px;
+  padding-left: 434px;
 }
 .titulo {
-  text-align: left; /* Alinea el título hacia la derecha */
-  font-size: 12px;
-  
-  padding-bottom: 22px;
-    padding-top: 35px;
-    
+  text-align: left;
+  font-size: 5rem;
+  padding-bottom: 62px;
+  padding-top: 35px;
 }
 
 .blanco {
@@ -38,13 +36,13 @@
 }
 .p-blanco {
   color: white; /* Hace que el texto sea blanco */
-  font-size: 17px;
+  font-size: 23px;
 }
 
 .p-naranja {
   color: orange; /* Hace que el texto sea naranja */
   font-weight: bold;
-  font-size: 17px;
+  font-size: 23px;
 }
 
 .parrafo {
@@ -55,7 +53,7 @@
 
 
 .tituloinferior {
-  font-size: 12px;
+  font-size: 5rem;
   padding-left: 130px;
   padding-bottom: 60px;
 }

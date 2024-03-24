@@ -69,7 +69,7 @@ const Footer = () => {
 
             <div className="columnasTres">
               <div className="footer-column">
-                <p>
+                <p claasNanem="symbol">𛲣
                   <a href="#" className="parrafo-telefono">
                     <i className="fas fa-phone-alt"></i> 01164660228
                   </a>
@@ -78,7 +78,7 @@ const Footer = () => {
                   <a
                     href="mailto:contacto@atic.com.ar"
                     className="parrafo-correoelectronico"
-                  >
+                  >@
                     contacto@atic.com.ar
                   </a>
                 </p>
@@ -87,8 +87,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
+       <div class="footer-line"></div>
       <div className="footer-down">
-        <div class="footer-line"></div>
+       
         <p className="derechos">
           Todos los derechos reservados © ATIC tecnologías{" "}
         </p>

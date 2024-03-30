@@ -4,9 +4,9 @@
   background-position: center; /* Centra la imagen */
   display: flex;
   align-items: center;
-  padding: 0 20px; /* Añade relleno si es necesario */
+  padding: 150px 20px; /* Añade relleno si es necesario */
   flex-direction: column;
- background-color: #000000;
+  background-color: #000000;
   z-index: 1;
 }
 .header-texto {
@@ -14,12 +14,12 @@
   margin: 10px; /* Ajusta según el espacio deseado */
 }
 
-
 .parrafouno {
   margin-left: auto;
   padding-left: 434px;
 }
 .titulo {
+  line-height: 1.2;
   text-align: left;
   font-size: 5rem;
   padding-bottom: 62px;
@@ -36,13 +36,13 @@
 }
 .p-blanco {
   color: white; /* Hace que el texto sea blanco */
-  font-size: 23px;
+  font-size: 43px;
 }
 
 .p-naranja {
   color: orange; /* Hace que el texto sea naranja */
   font-weight: bold;
-  font-size: 23px;
+  font-size: 43px;
 }
 
 .parrafo {
@@ -50,29 +50,31 @@
   font-size: 11px;
 }
 
-
-
 .tituloinferior {
   font-size: 5rem;
-  padding-left: 130px;
-  padding-bottom: 60px;
+  padding: 110px 0px 50px 150px;
+  line-height: 1.2;
 }
 
 .contenedor {
   display: flex;
   justify-content: center; /* Alinea las tarjetas en el centro horizontal */
-  gap: 40px; /* Distribuirá uniformemente el espacio entre las tarjetas */
+  gap: 60px; /* Distribuirá uniformemente el espacio entre las tarjetas */
 }
 
 .custom-card {
-  background-image: radial-gradient(circle at -14.09% 20.12%, #a49964 0, #353431 50%, #000000 100%);
+  background-image: radial-gradient(
+    circle at -14.09% 20.12%,
+    #a49964 0,
+    #353431 50%,
+    #000000 100%
+  );
   /* Por ejemplo: */
   border-radius: 18px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 80px;
-  width: 200px;
-  height: 230px;
- 
+  width: 22rem;
+  height:27rem;
 }
 
 .text-md {
@@ -93,31 +95,26 @@
   padding-bottom: 0px;
 }
 
-
-.card-titulo{
-  font-size: 14px;
-  
-
+.card-titulo {
+  font-size: 1.7rem;
 }
-.card-parrafo{
+.card-parrafo {
   padding-top: 0px;
 }
 
-.card-texto{
-  font-size: 14px;
-
+.card-texto {
+  font-size: 1.8rem;
 }
 
 .header-container .vertical-line {
   width: 3px; /* Ancho de la línea vertical */
   height: 100%; /* Altura igual al 100% del tamaño del viewport */
-  background-color: #FA9648; /* Color de la línea */
+  background-color: #fa9648; /* Color de la línea */
   position: fixed; /* Posición fija para que la línea no afecte otros componentes */
   left: 50px; /* Ubicación a 30px de la izquierda */
   top: 0; /* Asegura que esté en la parte superior */
- 
 }
 
-.barraNavegacion{
+.barraNavegacion {
   display: flex;
 }

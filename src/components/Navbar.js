@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import logo from "../assets/logo.png";
+import logo2 from "../assets/logo-terruneo.png";
 
 export default function App() {
   return (
@@ -31,7 +32,7 @@ export default function App() {
       </nav>
       <div className="terruneo">
         <div className="logoTerruneo">
-          <img className="logo2" src="../assets/logo-terruneo.png" alt="logo2" />
+          <img className="logo2" src={logo2} alt="logo2" />
           <p>
             <span className="terruneo-titulo-blanco"> terru</span>
             <span className="terruneo-titulo-naranja">neo</span>

@@ -22,17 +22,19 @@
   font-size:5rem;
   padding: 110px 0px 50px 150px;
   
+line-height: 1.2;
+  
 }
 
 .texto1 {
   color: white;
-  font-size: 20px;
+  font-size: 2rem;
   padding: 0px 0px 20px 150px;
   font-weight: bold;
 }
 .texto2 {
   color: white;
-  font-size: 20px;
+  font-size: 2rem;
   padding: 60px 160px 130px 120px;
   display: flex;
   flex-direction: column;
@@ -41,7 +43,7 @@
 }
 .texto3 {
   color: white;
-  font-size: 20px;
+  font-size: 2rem;
   padding-bottom: 80px;
   display: flex;
   justify-content: center;

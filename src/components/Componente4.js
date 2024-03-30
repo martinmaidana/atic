@@ -10,7 +10,8 @@ const Componente4 = () => {
           <p class="titulo-componente">Conocemos a nuestro cliente</p>
         </div>
       </div>
-      <p class="parrafo-componente">Entendemos sus necesidades y planificamos la solución en conjunto.</p>
+      <p class="parrafo-componente">Nuestro equipo de profesionales crea una sinergia con el cliente para definir
+y personalizar una estrategia.</p>
 
       <div class="fondo-numeros">
         <div class="numero-titulo">
@@ -18,7 +19,7 @@ const Componente4 = () => {
           <p class="titulo-componente">Técnicas de vanguardia</p>
         </div>
       </div>
-      <p class="parrafo-componente">Creamos modelos robustos para el reconocimiento de objetos en diferentes ámbitos (marítimo, terrestre y aeronáutico).</p>
+      <p class="parrafo-componente">Creamos modelos robusos para el reconocimiento de objetos en diferentes ámbitos (marítimo, terrestre y aeronáutico)</p>
 
       <div class="fondo-numeros">
         <div class="numero-titulo">
@@ -26,7 +27,7 @@ const Componente4 = () => {
           <p class="titulo-componente">Calibración y evaluación de resultados</p>
         </div>
       </div>
-      <p class="parrafo-componente">Calibramos los resultados de forma iterativa y evaluamos métricas, optimizamos procesos y corregimos posibles sesgos.</p>
+      <p class="parrafo-componente">Calibramos los resultados de forma iterativa y evaluamos métricas, optimizamos procesos y corregimos posibles sesgos. </p>
 
       <div class="fondo-numeros">
   <div class="numero-titulo">
@@ -34,7 +35,8 @@ const Componente4 = () => {
     <p class="titulo-componente">Definimos el alcance del proyecto</p>
   </div>
 </div>
-<p class="parrafo-componente">Definimos objetos, satélites y procesamos técnicas de adaptación para cada modelo.</p>
+<p class="parrafo-componente">El método consta en definir objetos, satélites y procesar técnicas de adaptación para cada modelo de manera rápida y eficiente.
+</p>
 
 <div class="fondo-numeros">
   <div class="numero-titulo">
@@ -50,7 +52,7 @@ const Componente4 = () => {
     <p class="titulo-componente">Solución personalizada</p>
   </div>
 </div>
-<p class="parrafo-componente">Entregamos diversos formatos editables e integramos la información contextual para agregar valor a los recursos de la organización.</p>
+<p class="parrafo-componente">Entregamos diversos formatos editables con la información de cada zona, superficie detectada y alturas por lote y manzana. Integramos la información contextual para agregar valor a los recursos de la organización.</p>
 
 
     </div>

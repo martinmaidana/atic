@@ -39,12 +39,12 @@
 
 
 .logo {
-  max-width: 32%;
+  max-width: 20%;
   height: auto;
 }
 
 .logo2 {
-  max-width: 24%;
+  max-width: 10%;
   height: auto;
 }
 .navi {
@@ -81,6 +81,8 @@
 }
 
 .sub {
+  display: flex;
+  justify-content: center;
   color: white;
   font-size: 2em; /* Por ejemplo */
   font-weight: bold;

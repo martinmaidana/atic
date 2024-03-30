@@ -45,7 +45,16 @@
   }
   
   .slide h2 {
-    font-size: 24px;
+    font-size: 5rem;
+    padding: 110px 0px 50px 150px;
+    line-height: 1.2;
+  }
+
+  .subtitle{
+    color: white;
+    font-size: 2rem;
+    padding: 0px 0px 20px 150px;
+    font-weight: bold;
   }
   
   .white-text {
@@ -62,12 +71,18 @@
   }
   
   .slide p {
-    font-size: 16px;
+    color: white;
+    font-size: 22px;
+    
   }
   
-  .slide p:first-of-type {
-    font-size: 2em;
-    font-weight: bold;
+  
+
+  .carrousel-subtitle-parrafos{
+    display: flex;
+  }
+  .carrousel-parrafos{
+    padding-left: 259px;
   }
   
 
@@ -81,33 +96,33 @@
   background-size: cover; 
 }
   .slide1 {
-    background-image: url("../assets/carrousel/Campo 1.png");
+    background-image: url("../assets/carrousel/luxa.org-opacity-changed-Campo\ 1.png");
 }
 
 .slide2 {
-  background-image: url("../assets/carrousel/Campo 1.png");
+  background-image: url("../assets/carrousel/luxa.org-opacity-changed-Campo\ 1.png");
     /* background-image: url("../assets/carrousel/Atmósfera\ 5.jpg"); */
 }
 
 .slide3 {
-    background-image: url("../assets/carrousel/Medio\ ambiente\ 2.jpg");
+    background-image: url("../assets/carrousel/luxa.org-opacity-changed-Medio\ ambiente\ 2.jpg");
     
 }
 
 .slide4 {
-    background-image: url("../assets/carrousel/Cartografia\ 3.jpg");
+    background-image: url("../assets/carrousel/luxa.org-opacity-changed-Cartografia\ 3.jpg");
 }
 
 .slide5 {
-    background-image: url("../assets/carrousel/Suelo\ 4.jpg");
+    background-image: url("../assets/carrousel/luxa.org-opacity-changed-Suelo\ 4.jpg");
 }
 
 .slide6 {
-    background-image: url("../assets/carrousel/Atmósfera\ 5.jpg");
+    background-image: url("../assets/carrousel/luxa.org-opacity-changed-Atmósfera\ 5\ \(1\).jpg");
 }
 
 .slide7 {
-    background-image: url("../assets/carrousel/Gestión\ de\ riesgo\ 6.jpg");
+    background-image: url("../assets/carrousel/luxa.org-opacity-changed-Gestión\ de\ riesgo\ 6.jpg");
 }
 
 

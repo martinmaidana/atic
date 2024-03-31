@@ -5,9 +5,27 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Carousel = () => {
+  const CustomPrevArrow = (props) => {
+    const { onClick } = props;
+    return (
+      <button className="custom-arrow custom-prev-arrow" onClick={onClick}>
+        {"<"}
+      </button>
+    );
+  };
+
+  const CustomNextArrow = (props) => {
+    const { onClick } = props;
+    return (
+      <button className="custom-arrow custom-next-arrow" onClick={onClick}>
+        {">"}
+      </button>
+    );
+  };
+
   const settings = {
     customPaging: function (i) {
-      return <p>.</p>;
+      return <p className="carousel-line">-</p>;
     },
     dots: true,
     dotsClass: "slick-dots slick-thumb",
@@ -15,6 +33,8 @@ const Carousel = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    prevArrow: <CustomPrevArrow />,
+    nextArrow: <CustomNextArrow />
   };
 
   return (

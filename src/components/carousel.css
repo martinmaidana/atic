@@ -1,4 +1,17 @@
-.slider-container{
+/* bajar el interlineado del titulo principal y aumantar el padding bottom
+aumentar el interlineado entre los parrafos 
+los subtitulos de mas de una palabra van en dos filas
+pedir imagen de ambito
+pedir imagen de iconos de las cards
+las cards son gris con fondo transparente
+comencar animaciones
+comenzar desarrollo mobile
+y desarrollo en tablet
+good luck! */
+
+
+
+slider-container{
     position: relative;
   }
   
@@ -47,7 +60,7 @@
   .slide h2 {
     font-size: 5rem;
     padding: 110px 0px 50px 150px;
-    line-height: 1.2;
+    line-height: 1;
   }
 
   .subtitle{
@@ -63,6 +76,7 @@
   
   .orange-text {
     color: orange;
+    font-weight: bold;
   }
   
   .orange-dot {
@@ -96,11 +110,11 @@
   background-size: cover; 
 }
   .slide1 {
-    background-image: url("../assets/carrousel/luxa.org-opacity-changed-Campo\ 1.png");
+    background-image: url("../assets/carrousel/luxa.org-opacity-changed-Campo-1.jpeg");
 }
 
 .slide2 {
-  background-image: url("../assets/carrousel/luxa.org-opacity-changed-Campo\ 1.png");
+  background-image: url("../assets/carrousel/luxa.org-opacity-changed-Campo-1.jpeg");
     /* background-image: url("../assets/carrousel/Atmósfera\ 5.jpg"); */
 }
 
@@ -126,6 +140,26 @@
 }
 
 
+.custom-arrow {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: #000; /* Color de los botones */
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1; 
+}
+
+.custom-prev-arrow {
+  left: 10px; /* Ajusta la posición del botón izquierdo según tu diseño */
+  
+}
+
+.custom-next-arrow {
+  right: 10px; /* Ajusta la posición del botón derecho según tu diseño */
+}
  
   
   

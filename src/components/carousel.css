@@ -9,136 +9,126 @@ comenzar desarrollo mobile
 y desarrollo en tablet
 good luck! */
 
-
-
-slider-container{
-    position: relative;
-  }
-  
-  .slide {
-    position: relative;
-  }
-  
-  .slide img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .text-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .slick-prev,
-  .slick-next {
-    font-size: 40px;
-    color: white;
-    z-index: 9999;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  
-  .slick-prev {
-    left: 10px;
-  }
-  
-  .slick-next {
-    right: 10px;
-  }
-  
-
-  .carousel {
-    /* Estilos del carrusel */
-  }
-  
-  .slide h2 {
-    font-size: 5rem;
-    padding: 110px 0px 50px 150px;
-    line-height: 1;
-  }
-
-  .subtitle{
-    color: white;
-    font-size: 2rem;
-    padding: 0px 0px 20px 150px;
-    font-weight: bold;
-  }
-  
-  .white-text {
-    color: white;
-  }
-  
-  .orange-text {
-    color: orange;
-    font-weight: bold;
-  }
-  
-  .orange-dot {
-    color: orange;
-    margin-right: 5px;
-  }
-  
-  .slide p {
-    color: white;
-    font-size: 22px;
-    
-  }
-  
-  
-
-  .carrousel-subtitle-parrafos{
-    display: flex;
-  }
-  .carrousel-parrafos{
-    padding-left: 259px;
-  }
-  
-
-
-  .slide-content img {
-    width: 100%;
-    height: auto;
-  }
-.slide{
-  height: 80vh;
-  background-size: cover; 
+slider-container {
+  position: relative;
 }
-  .slide1 {
-    background-image: url("../assets/carrousel/luxa.org-opacity-changed-Campo-1.jpeg");
+
+.slide {
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 40px;
+  color: white;
+  z-index: 9999;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+.carousel {
+  /* Estilos del carrusel */
+}
+
+.slide h2 {
+  font-size: 5rem;
+  padding: 110px 0px 50px 150px;
+  line-height: 1;
+}
+
+.subtitle {
+  color: white;
+  font-size: 2rem;
+  padding: 0px 0px 20px 150px;
+  font-weight: bold;
+}
+
+.white-text {
+  color: white;
+}
+
+.orange-text {
+  color: orange;
+  font-weight: bold;
+}
+
+.orange-dot {
+  color: orange;
+  margin-right: 5px;
+}
+
+.slide p {
+  color: white;
+  font-size: 22px;
+}
+
+.carrousel-subtitle-parrafos {
+  display: flex;
+}
+.carrousel-parrafos {
+  padding-left: 259px;
+}
+
+.slide-content img {
+  width: 100%;
+  height: auto;
+}
+.slide {
+  height: 80vh;
+  background-size: cover;
+}
+.slide1 {
+  background-image: url("../assets/carrousel/luxa.org-opacity-changed-Campo-1.jpeg");
 }
 
 .slide2 {
   background-image: url("../assets/carrousel/luxa.org-opacity-changed-Campo-1.jpeg");
-    /* background-image: url("../assets/carrousel/Atmósfera\ 5.jpg"); */
+  /* background-image: url("../assets/carrousel/Atmósfera\ 5.jpg"); */
 }
 
 .slide3 {
-    background-image: url("../assets/carrousel/luxa.org-opacity-changed-Medio\ ambiente\ 2.jpg");
-    
+  background-image: url("../assets/carrousel/luxa.org-opacity-changed-Medio\ ambiente\ 2.jpg");
 }
 
 .slide4 {
-    background-image: url("../assets/carrousel/luxa.org-opacity-changed-Cartografia\ 3.jpg");
+  background-image: url("../assets/carrousel/luxa.org-opacity-changed-Cartografia\ 3.jpg");
 }
 
 .slide5 {
-    background-image: url("../assets/carrousel/luxa.org-opacity-changed-Suelo\ 4.jpg");
+  background-image: url("../assets/carrousel/luxa.org-opacity-changed-Suelo\ 4.jpg");
 }
 
 .slide6 {
-    background-image: url("../assets/carrousel/luxa.org-opacity-changed-Atmósfera\ 5\ \(1\).jpg");
+  background-image: url("../assets/carrousel/luxa.org-opacity-changed-Atmósfera\ 5\ \(1\).jpg");
 }
 
 .slide7 {
-    background-image: url("../assets/carrousel/luxa.org-opacity-changed-Gestión\ de\ riesgo\ 6.jpg");
+  background-image: url("../assets/carrousel/luxa.org-opacity-changed-Gestión\ de\ riesgo\ 6.jpg");
 }
-
 
 .custom-arrow {
   background-color: transparent;
@@ -149,19 +139,21 @@ slider-container{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 1; 
+  z-index: 1;
+
+  color: white; /* Color blanco */
+  font-size: 24px; /* Tamaño del font */
+  font-weight: bold; /* Aumento de grosor */
+  line-height: 1; /* Para asegurar que la altura sea doble pero no el ancho */
 }
 
 .custom-prev-arrow {
-  left: 10px; /* Ajusta la posición del botón izquierdo según tu diseño */
-  
+  left: 13px; /* Ajusta la posición del botón izquierdo según tu diseño */
+
+  transform: scale(1, 2); /* Escala la flecha en altura sin afectar el ancho */
 }
 
 .custom-next-arrow {
-  right: 10px; /* Ajusta la posición del botón derecho según tu diseño */
+  right: 13px; /* Ajusta la posición del botón derecho según tu diseño */
+  transform: scale(1, 2);
 }
- 
-  
-  
-
-
